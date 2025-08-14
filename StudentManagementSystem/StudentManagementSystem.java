@@ -1,11 +1,6 @@
 
 import java.util.ArrayList;
 import java.util.Scanner;
-
-
-
-
-// Main class
 public class StudentManagementSystem {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -19,8 +14,8 @@ public class StudentManagementSystem {
             System.out.println("4. Exit");
             System.out.print("Enter your choice: ");
             int choice = sc.nextInt();
-            sc.nextLine(); // consume newline
-
+            sc.nextLine(); 
+            
             switch (choice) {
                 case 1:
                     System.out.print("Enter name: ");
